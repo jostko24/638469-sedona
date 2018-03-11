@@ -17,8 +17,47 @@
   		</nav>
   	</header>
     <main class="container">
+    <section class="filters">
+     <form class="filter" action="index.html" method="get">
+       <fieldset>
+         <legend>Инфраструктура</legend>
+         <ul>
+           <li class="filter-item">Бассейн
+           <input type="checkbox" name="pool" checked>
+           </li>
+           <li class="filter-item">Парковка
+           <input type="checkbox" name="car-parking">
+           </li>
+           <li class="filter-item">wi-fi
+           <input type="checkbox" name="wi-fi">
+           </li>
+         </ul>
+       </fieldset>
+
+       <fieldset>
+     <legend>Тип жилья</legend>
+     <ul>
+       <li class="filter-item"> Гостиница
+      <input type="checkbox" name="hotel" checked>
+       </li>
+       <li class="filter-item"> Мотель
+         <input type="checkbox" name="motel" checked>
+       </li>
+       <li class="filter-item"> Апартаменты
+       <input type="checkbox" name="apartment" checked>
+       </li>
+     </ul>
+       </fieldset>
+
+       <fieldset>
+          <label for="price">Стоимость в сутки (Р):</label>
+             0 <input type="range" id="price" name="price" min="0" max="4000" step="1" value="3000"> 4000
+         <button type="submit" class=filter-button"" name="button">Показать</button>
+       </fieldset>
+     </form>
+    </section>
       <h1 class="visually-hidden">Выбор гостиницы в городке Седона</h1>
-      <img src="img/background.jpg" width="1200" height="800" alt="Гора Седона">
+
       <section class="filter-panel">
         	<h2 class="visually-hidden">Сортировка по параметрам</h2>
         <div class="filter-offers">
