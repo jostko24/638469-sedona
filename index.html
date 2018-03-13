@@ -87,30 +87,33 @@
          <a class="search-btn">Поиск гостиницы в седоне</a>
        </div>
      </section>
-     <section class="map">
-       <form class="search-form" action="#" method="post">
-         <label for="date-of-entry">
-           Дата заезда:
-           </label>
-         <input type="text" name="date-of-entry" value="24 апреля 2017" id="date-of-entry">
-         <label class="departure" for="date-of-departure">
-           Дата выезда:
-           </label>
-         <input type="text" name="date-of-departure" value="4 июля 2017" id="date-of-departure">
-         <div class="amount">
-           <label for="amount-of-adults">Взрослые:</label>
-             <input type="text" name="amount-of-adults" value="2" id="amount-of-adults">
-           <label for="amount-of-children">Дети:</label>
-            <input type="text" name="amount-of-children" value="0" id="amount-of-children">
-         </div>
-         <button type="submit">Найти</button>
-       </form>
-
-      </section>
-  		<div class="map">
-        <h2 class="visually-hidden">Интерактивная карта Седоны</h2>
-  			<img src="img/map.jpg" alt="Карта">
-  		</div >
+     <section class="appointment">
+          <h2 class="appointment-heading">Поиск гостиницы в Седоне</h2>
+          <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="appointment-form-item">
+              <label for="appointment-check-in">Дата заезда</label>
+            <input id="appointment-check-in" type="text" name="check-in" value="" placeholder="24 апреля 2017">
+            </p>
+            <p class="search-form-item">
+              <label for="appointment-check-out">Дата выезда</label>
+            <input id="appointment-check-out" type="text" name="check-out" value="" placeholder="4 июля 2017">
+            </p>
+            <p class="search-form-item">
+              <label for="appointment-adults">Взрослые</label>
+            <input id="appointment-adults" type="text" name="Adults" value="" placeholder="- 2 +">
+            </p>
+            <p class="search-form-item">
+              <label for="appointment-kids">Дети</label>
+            <input id="appointment-kids" type="text" name="Kids" value="" placeholder="- 0 +">
+            </p>
+            <button class="button" type="submit">Найти</button>
+          </form>
+        </section>
+        <section class="map">
+          <h2 class="visually-hidden">Карта</h2>
+          <img src="img/map.png" width="1200" height="473"
+           alt="Карта Седоны">
+        </section>
   	</main>
   	<footer class="main-footer">
   		<p>#visitsedona</p>
