@@ -479,6 +479,7 @@ input {
 
 .original-item-right,
 .showplace-item-left {
+
 	width: 800px;
 	height: 256px;
 }
@@ -490,6 +491,7 @@ input {
 	padding-top: 140px;
 	display: flex;
 	width: 100%;
+	margin-bottom: 85px
 }
 
 .features-item {
@@ -503,7 +505,7 @@ input {
 	left: 162px;
 	width: 75px;
 	height: 72px;
-	background-image: url(../img/home.svg);
+	background-image: url("../img/icon-1.svg");
 	background-repeat: no-repeat;
 }
 
@@ -512,10 +514,10 @@ input {
 	position: absolute;
 	top: 60px;
 	left: 50%;
-	margin-left: -32px;
+	margin-left: -40px;
 	width: 74px;
 	height: 70px;
-	background-image: url(../img/food.svg);
+	background-image: url("../img/icon-2.svg");
 	background-repeat: no-repeat;
 }
 
@@ -526,7 +528,7 @@ input {
 	left: 965px;
 	width: 64px;
 	height: 76px;
-	background-image: url(../img/souvenir.svg);
+	background-image: url("../img/icon-3.svg");
 	background-repeat: no-repeat;
 }
 
