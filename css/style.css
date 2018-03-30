@@ -46,7 +46,7 @@ input[type="radio"].visually-hidden {
 	overflow: hidden;
 }
 
-/* навигация */
+/* Ð½Ð°Ð²Ð¸Ð³Ð°Ñ†Ð¸Ñ */
 
 .nav {
 	position: relative;
@@ -65,8 +65,8 @@ input[type="radio"].visually-hidden {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: space-between;
 	padding: 15px 0;
 }
 
@@ -99,22 +99,25 @@ input[type="radio"].visually-hidden {
 }
 
 .nav-item {
-	width: 240px;
+	width: 235px;
 	text-align: center;
 }
 
 .nav-item:nth-child(3) {
-	margin-left: 240px;
+	margin-left: 236px;
 }
 
-/* контентное изображение */
+.nav-item:nth-child(4) a{
+	padding-left: 10px;
+}
+/* ÐºÐ¾Ð½Ñ‚ÐµÐ½Ñ‚Ð½Ð¾Ðµ Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ */
 
 .banner {
 	margin-bottom: 61px;
 	background-color: #ffffff;
 }
 
-/* слоган */
+/* ÑÐ»Ð¾Ð³Ð°Ð½ */
 
 .slogan {
 	width: 500px;
@@ -160,7 +163,7 @@ input[type="radio"].visually-hidden {
 }
 
 .features-title {
-	margin-bottom: 28px;
+	margin-bottom: 25px;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
@@ -280,33 +283,32 @@ h2.showplace-title {
 	display: flex;
 	width: 100%;
 	padding-bottom: 66px;
-	padding-top: 140px;
+	padding-top: 143px;
+	justify-content:space-between;
+	padding-left: 23px;
+	padding-right: 26px;
 }
 
 .features-item {
-	width: 400px;
+	width: 350px;
+	position: relative;
 }
 
 .features-item:nth-child(1) {
-	padding-left: 72px;
-	padding-right: 72px;
+
 }
 
 .features-item:nth-child(2) {
-	padding-left: 58px;
-	padding-right: 58px;
 }
 
 .features-item:nth-child(3) {
-	padding-left: 64px;
-	padding-right: 64px;
 }
 
 .features-item:nth-child(1)::before {
 	content: "";
 	position: absolute;
-	top: 60px;
-	left: 162px;
+	top: -83px;
+	left: 138px;
 	width: 75px;
 	height: 72px;
 	background-image: url(../img/icon-1.svg);
@@ -316,8 +318,8 @@ h2.showplace-title {
 .features-item:nth-child(2)::before {
 	content: "";
 	position: absolute;
-	top: 60px;
-	left: 50%;
+	top: -82px;
+	left: 48%;
 	margin-left: -32px;
 	width: 74px;
 	height: 70px;
@@ -328,8 +330,8 @@ h2.showplace-title {
 .features-item:nth-child(3)::before {
 	content: "";
 	position: absolute;
-	top: 60px;
-	left: 965px;
+	top: -87px;
+	left: 144px;
 	width: 64px;
 	height: 76px;
 	background-image: url(../img/icon-3.svg);
@@ -445,7 +447,7 @@ a.modal-button {
 	border: none;
 }
 
-/* catalog форма поиска жилья */
+/* catalog Ñ„Ð¾Ñ€Ð¼Ð° Ð¿Ð¾Ð¸ÑÐºÐ° Ð¶Ð¸Ð»ÑŒÑ */
 
 .filter fieldset {
 	border: none;
@@ -688,7 +690,7 @@ li.filter-option {
 	background: #ffffff;
 }
 
-/* catalog результаты поиска */
+/* catalog Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ñ‹ Ð¿Ð¾Ð¸ÑÐºÐ° */
 
 .search-result-caption {
 	font-size: 21px;
@@ -851,7 +853,7 @@ li.filter-option {
 	fill: #81b3d2;
 }
 
-/* каталог отелей */
+/* ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³ Ð¾Ñ‚ÐµÐ»ÐµÐ¹ */
 
 .img {
 	width: 135px;
@@ -1232,7 +1234,7 @@ div.description {
 	fill: #bdbbbc;
 }
 
-/*  index форма поиска жилья */
+/*  index Ñ„Ð¾Ñ€Ð¼Ð° Ð¿Ð¾Ð¸ÑÐºÐ° Ð¶Ð¸Ð»ÑŒÑ */
 
 .modal {
 	position: absolute;
